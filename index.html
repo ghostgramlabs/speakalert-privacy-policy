@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SpeakAlert Privacy Policy</title>
+  <meta name="description" content="SpeakAlert Privacy Policy (Effective Date: February 2026)." />
+  <style>
+    :root {
+      color-scheme: light;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      line-height: 1.65;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      color: #222;
+    }
+    .container {
+      max-width: 860px;
+      margin: 40px auto;
+      padding: 0 18px 60px;
+    }
+    header {
+      margin-bottom: 18px;
+    }
+    h1 {
+      font-size: 2rem;
+      margin: 0 0 6px;
+      letter-spacing: -0.02em;
+    }
+    .effective {
+      margin: 0;
+      color: #555;
+    }
+    .card {
+      margin-top: 18px;
+      padding: 20px 22px;
+      border: 1px solid #e6e6e6;
+      border-radius: 14px;
+      background: #fff;
+    }
+    h2 {
+      font-size: 1.25rem;
+      margin: 0 0 10px;
+      letter-spacing: -0.01em;
+    }
+    p {
+      margin: 10px 0;
+    }
+    ul {
+      margin: 10px 0 10px 22px;
+      padding: 0;
+    }
+    li {
+      margin: 6px 0;
+    }
+    hr {
+      border: 0;
+      border-top: 1px solid #eee;
+      margin: 18px 0;
+    }
+    .muted {
+      color: #555;
+    }
+    .email {
+      font-weight: 600;
+    }
+    footer {
+      margin-top: 26px;
+      color: #666;
+      font-size: 0.95rem;
+    }
+    a {
+      color: inherit;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { color-scheme: dark; }
+      body { background: #0b0b0c; color: #f2f2f2; }
+      .card { background: #111113; border-color: #222; }
+      .effective, .muted, footer { color: #bdbdbd; }
+      hr { border-top-color: #222; }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>SpeakAlert Privacy Policy</h1>
+      <p class="effective"><strong>Effective Date:</strong> February 2026</p>
+      <p class="muted">
+        SpeakAlert respects your privacy. This app is designed to work primarily offline and does not collect or share personal data.
+      </p>
+    </header>
+
+    <section class="card">
+      <h2>Information Collection and Use</h2>
+      <p>SpeakAlert does not collect, store, or transmit any personal information to its own servers.</p>
+      <ul>
+        <li>Voice recordings and reminder data are stored locally on your device</li>
+        <li>No data is uploaded to SpeakAlert servers</li>
+      </ul>
+      <p>If Android device backup is enabled, some app data may be backed up to your Google account by the Android system.</p>
+    </section>
+
+    <section class="card">
+      <h2>Permissions</h2>
+      <p>SpeakAlert uses the following permissions only for core app functionality:</p>
+      <ul>
+        <li><strong>Microphone</strong>: Required to record voice reminders</li>
+        <li><strong>Notifications</strong>: Required to deliver reminders</li>
+        <li><strong>Exact Alarms (USE_EXACT_ALARM)</strong>: Required for precise reminder timing</li>
+        <li><strong>RECEIVE_BOOT_COMPLETED</strong>: Required to reschedule reminders after device restart</li>
+        <li><strong>FOREGROUND_SERVICE</strong>: Required to run reminder playback in the foreground</li>
+        <li><strong>FOREGROUND_SERVICE_MEDIA_PLAYBACK</strong>: Required for audio playback while the app is not in the foreground</li>
+        <li><strong>WAKE_LOCK</strong>: Ensures reminders can play reliably when the device is locked</li>
+        <li><strong>VIBRATE</strong>: Enables vibration alerts for reminders</li>
+      </ul>
+      <p class="muted">These permissions are used only to support reminder functionality and are not used for tracking or data collection.</p>
+    </section>
+
+    <section class="card">
+      <h2>Foreground Service</h2>
+      <p>
+        SpeakAlert may use a foreground service to play reminder sounds reliably, especially when the device is locked.
+        This service runs only when a reminder is active and stops automatically afterward.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Audio Playback</h2>
+      <p>SpeakAlert plays reminder sounds using:</p>
+      <ul>
+        <li>Voice recordings created by the user</li>
+        <li>Text-to-speech (TTS)</li>
+        <li>System alarm tones (when enabled)</li>
+      </ul>
+      <p>All audio playback happens locally on the device.</p>
+      <p>
+        For text-to-speech, reminder text may be processed by the device’s selected TTS engine provider according to your device settings.
+        SpeakAlert does not transmit this data to any external servers.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Data Storage, Retention, and Deletion</h2>
+      <ul>
+        <li>All reminder data and recordings remain on your device</li>
+        <li>Data is retained until you delete it or uninstall the app</li>
+        <li>You can delete reminders at any time within the app</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Data Sharing</h2>
+      <p>SpeakAlert does not share any user data with third parties.</p>
+    </section>
+
+    <section class="card">
+      <h2>Third-Party / System Services</h2>
+      <p>SpeakAlert relies on Android system services for certain functionality, including:</p>
+      <ul>
+        <li>Device backup (if enabled by the user)</li>
+        <li>Text-to-speech engine processing (based on system settings)</li>
+      </ul>
+      <p class="muted">These services are controlled by your device and operating system.</p>
+    </section>
+
+    <section class="card">
+      <h2>Data Security</h2>
+      <p>
+        All data remains on the user's device. SpeakAlert does not use cloud storage, analytics, tracking, or background data collection.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Data Safety</h2>
+      <p>
+        SpeakAlert does not collect or share personal data.<br />
+        All statements in this Privacy Policy are consistent with the app’s Data Safety section on Google Play.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Children’s Privacy</h2>
+      <p>SpeakAlert does not knowingly collect personal information from children.</p>
+    </section>
+
+    <section class="card">
+      <h2>Changes to This Policy</h2>
+      <p>If this privacy policy changes, updates will be posted on this page.</p>
+    </section>
+
+    <section class="card">
+      <h2>Contact</h2>
+      <p>If you have any questions, contact:</p>
+      <p class="email">ghostgramlabs@gmail.com</p>
+    </section>
+
+    <footer>
+      <p class="muted">© SpeakAlert. All rights reserved.</p>
+    </footer>
+  </main>
+</body>
+</html>
