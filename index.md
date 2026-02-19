@@ -1,5 +1,3 @@
-
-
 # SpeakAlert Privacy Policy
 
 **Effective Date:** February 2026
@@ -8,7 +6,7 @@ SpeakAlert respects your privacy. This app is designed to work primarily offline
 
 ---
 
-## **Information Collection and Use**
+## Information Collection and Use
 
 SpeakAlert does not collect, store, or transmit any personal information to its own servers.
 
@@ -19,7 +17,7 @@ If Android device backup is enabled, some app data may be backed up to your Goog
 
 ---
 
-## **Permissions**
+## Permissions
 
 SpeakAlert uses the following permissions only for core app functionality:
 
@@ -36,12 +34,81 @@ These permissions are used only to support reminder functionality and are not us
 
 ---
 
-## **Foreground Service**
+## Foreground Service
 
 SpeakAlert may use a foreground service to play reminder sounds reliably, especially when the device is locked. This service runs only when a reminder is active and stops automatically afterward.
 
 ---
 
-## **Audio Playback**
+## Audio Playback
 
-SpeakAlert pla
+SpeakAlert plays reminder sounds using:
+
+- Voice recordings created by the user  
+- Text-to-speech (TTS)  
+- System alarm tones (when enabled)  
+
+All audio playback happens locally on the device.
+
+For text-to-speech, reminder text may be processed by the device’s selected TTS engine provider according to your device settings.  
+
+SpeakAlert does not transmit this data to any external servers.
+
+---
+
+## Data Storage, Retention, and Deletion
+
+- All reminder data and recordings remain on your device  
+- Data is retained until you delete it or uninstall the app  
+- You can delete reminders at any time within the app  
+
+---
+
+## Data Sharing
+
+SpeakAlert does not share any user data with third parties.
+
+---
+
+## Third-Party / System Services
+
+SpeakAlert relies on Android system services for certain functionality, including:
+
+- Device backup (if enabled by the user)  
+- Text-to-speech engine processing (based on system settings)  
+
+These services are controlled by your device and operating system.
+
+---
+
+## Data Security
+
+All data remains on the user's device. SpeakAlert does not use cloud storage, analytics, tracking, or background data collection.
+
+---
+
+## Data Safety
+
+SpeakAlert does not collect or share personal data.  
+
+All statements in this Privacy Policy are consistent with the app’s Data Safety section on Google Play.
+
+---
+
+## Children’s Privacy
+
+SpeakAlert does not knowingly collect personal information from children.
+
+---
+
+## Changes to This Policy
+
+If this privacy policy changes, updates will be posted on this page.
+
+---
+
+## Contact
+
+If you have any questions, contact:  
+**ghostgramlabs@gmail.com**
+
