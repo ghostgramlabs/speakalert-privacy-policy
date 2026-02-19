@@ -1,4 +1,6 @@
-# Privacy Policy
+
+
+# SpeakAlert Privacy Policy
 
 **Effective Date:** February 2026
 
